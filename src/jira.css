@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Comic Neue", cursive;
+}
+.icon {
+  cursor: pointer;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addBtn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0052cc;
+  color: #fff;
+  /* font-size: 35px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  position: relative;
+}
+
+.addBtn p{
+  position: absolute;
+  font-size: 50px;
+  bottom: 4px;
+}
+.addBtn:hover {
+  background-color: #003f9f;
+
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0 , 0, 0, 0.2);
+}
+
+.upperContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title h1 {
+  font-size: 16px;
+  margin-left: 10px;
+  color: #172b4d;
+}
+
+.closeIcon {
+  cursor: pointer;
+  color: #6b778c;
+  transition: color 0.3s ease;
+}
+
+.closeIcon:hover {
+  color: #42526e;
+}
+
+.lowerContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: #0052cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #003f9f;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.list {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f5f7;
+  box-shadow: 0 2px 4px rgba(9, 30, 66, 0.25);
+  border-radius: 4px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.listTitle {
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.listTitle h1 {
+  font-size: 18px;
+  margin-left: 10px;
+  color: #172b4d;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+}
+
+
+.card h2 {
+  font-size: 14px;
+  color: #172b4d;
+  text-overflow: ellipsis; 
+}
+
+.arrowContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.arrow {
+  cursor: pointer;
+  color: #6b778c;
+  transition: color 0.3s ease;
+}
+
+.arrow:hover {
+  color: #42526e;
+}
+
+.iconContainer {
+  display: flex;
+}
+
+.iconContainer .arrow {
+  margin-left: 10px;
+}
+
+.editInput {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.editIcon,
+.deleteIcon {
+  cursor: pointer;
+  color: #6b778c;
+  transition: color 0.3s ease;
+  margin-left: 5px;
+}
+
+.editIcon:hover,
+.deleteIcon:hover {
+  color: #42526e;
+}
+.app {
+  position: relative; 
+  min-height: 100vh; 
+}
+
+
+
+.modal {
+  width: 400px;
+}
+
+main {
+  
+  flex-wrap: wrap;
+}
+
+
+
+.lowerContainer {
+  min-height: 200px;
+}
